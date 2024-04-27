@@ -237,9 +237,9 @@ a {
     --bg: #fdfaf3;
     --light: #fff;
     --accent: #000;
-    --red: #379ee7;
-    --fg: #925c5e;
-    --dark: #121212
+    --red: #392f2e;
+    --fg: #925c5e7f;
+    --dark: #121212;
 }
 
 [data-dark] {
