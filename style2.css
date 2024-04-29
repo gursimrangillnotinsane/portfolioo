@@ -258,7 +258,22 @@ a {
 
 @media(max-width:960px) {
     .h1 {
-        font-size: 60px
+        font-size: 5vh;
+        padding-top: 10%;
+        ;
+    }
+}
+
+.ticker__list {
+    display: flex;
+    margin-top: 20px;
+    animation: ticker 15s infinite linear;
+}
+
+@keyframes ticker {
+    100% {
+        transform: translateX(-100%);
+        /*try changing this to -100vw*/
     }
 }
 
@@ -770,8 +785,8 @@ a {
 
 @media(max-width:960px) {
     .btn {
-        width: 178px;
-        height: 178px
+        width: 111px;
+        height: 111px
     }
 }
 
@@ -2534,7 +2549,7 @@ video {
 
 @media(max-width:960px) {
     .skill__name {
-        /* font-size: 20px */
+        font-size: 20px
     }
 }
 
@@ -2688,9 +2703,7 @@ video {
 }
 
 @media(min-width:961px) {
-    .awards__th {
-        /* font-size: .625vw */
-    }
+
 
     .awards__th:nth-of-type(2) {
         grid-column-start: 3;
