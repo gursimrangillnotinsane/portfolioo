@@ -251,7 +251,7 @@ a {
     font-family: NeueHaasDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     line-height: .86em;
-    font-size: 11.4583333333vw;
+    font-size: 7rem;
     text-transform: uppercase;
     letter-spacing: -.02em
 }
@@ -266,10 +266,9 @@ a {
     font-family: NeueHaasDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     line-height: .86em;
-    font-size: 11.4583333333vw;
+    font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: -.02em;
-    font-size: 9.8958333333vw
 }
 
 @media(max-width:960px) {
@@ -714,17 +713,18 @@ a {
     width: 100%;
     font-family: NeueHaasDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    font-size: 9.8958333333vw;
+    font-size: 5rem;
     text-transform: uppercase;
     line-height: 1em;
     overflow: hidden
 }
 
+/* 
 @media(max-width:960px) {
     .ticker {
         font-size: calc(28.4466px + 8.41424vw)
     }
-}
+} */
 
 .ticker.small {
     font-size: .8333333333vw;
@@ -943,7 +943,7 @@ a {
 .footer-c__title,
 .footer-n__title,
 .footer-s__title {
-    font-size: 1.0416666667vw;
+    font-size: 1.5vw;
     line-height: 1em;
     margin-bottom: 16px
 }
@@ -958,7 +958,7 @@ a {
 }
 
 .footer__d {
-    font-size: .625vw;
+    /* font-size: .625vw; */
     line-height: 1em;
     max-width: 5.4166666667vw
 }
@@ -1046,7 +1046,7 @@ a {
 }
 
 .footer__num {
-    font-size: .625vw;
+    /* font-size: .625vw; */
     line-height: 1em
 }
 
@@ -1057,7 +1057,7 @@ a {
 }
 
 .footer__link {
-    font-size: .7291666667vw;
+    /* font-size: .7291666667vw; */
     line-height: 1em;
     display: block;
     width: -webkit-fit-content;
@@ -1943,6 +1943,8 @@ html {
     height: 100%
 }
 
+
+
 .js-in-view {
     transition: color .3s ease
 }
@@ -1950,9 +1952,8 @@ html {
 body {
     font-family: SFUIDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    font-size: .8333333333vw;
+    font-size: 1.2vw;
     text-transform: uppercase;
-    color: #472425;
     color: var(--fg);
     line-height: 1em;
     height: 100vh;
@@ -1961,7 +1962,8 @@ body {
     position: relative;
     overscroll-behavior-y: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(234, 231, 231);
 }
 
 @media(max-width:960px) {
@@ -1969,6 +1971,8 @@ body {
         font-size: 14px
     }
 }
+
+
 
 #gl,
 #gl-2 {
@@ -2162,9 +2166,9 @@ video {
 
 .home-1 {
     padding-top: 6.4814814815vh;
-    height: 100vh;
-    min-height: 100vh;
-    padding-bottom: 6.4814814815vh
+    /* height: 100vh;
+    min-height: 100vh; */
+    /* padding-bottom: 6.4814814815vh */
 }
 
 @media(max-width:960px) {
@@ -2220,11 +2224,11 @@ video {
     font-style: italic
 }
 
-@media(max-width:960px) {
+/* @media(max-width:960px) {
     .home-1__cd {
         margin-top: 19.4444444444vh
     }
-}
+} */
 
 .home-1__top {
     display: flex;
@@ -2316,7 +2320,7 @@ video {
 .home-1__d {
     flex: 1 0 12.65625vw;
     text-align: justify;
-    max-width: 12.65625vw
+    max-width: 23.65625vw;
 }
 
 @media(max-width:960px) {
@@ -2360,7 +2364,7 @@ video {
 .home-1__icon {
     position: absolute;
     left: 0;
-    bottom: .625vw
+    bottom: -9.375vw;
 }
 
 @media(max-width:960px) {
@@ -2426,13 +2430,13 @@ video {
 .home-3__d {
     margin-top: 2.8125vw;
     max-width: 9.3229166667vw;
-    font-size: .625vw
+    /* font-size: .625vw */
 }
 
 @media(max-width:960px) {
     .home-3__d {
         margin-top: calc(26.66019px + 1.42395vw);
-        font-size: 12px;
+        /* font-size: 12px; */
         max-width: 179px
     }
 }
@@ -2530,12 +2534,12 @@ video {
 
 @media(max-width:960px) {
     .skill__name {
-        font-size: 20px
+        /* font-size: 20px */
     }
 }
 
 .skill__d {
-    font-size: .625vw;
+    font-size: .75vw;
     margin-top: 12px;
     max-width: 10.4166666667vw;
     position: relative;
@@ -2685,7 +2689,7 @@ video {
 
 @media(min-width:961px) {
     .awards__th {
-        font-size: .625vw
+        /* font-size: .625vw */
     }
 
     .awards__th:nth-of-type(2) {
@@ -2849,7 +2853,7 @@ video {
 }
 
 .before-footer__h2 {
-    font-size: 13.0208333333vw;
+    font-size: 5rem;
     line-height: 1em;
     transform: translateX(-50%);
     width: -webkit-fit-content;
@@ -2888,7 +2892,7 @@ video {
 }
 
 .before-footer {
-    padding-top: 23.9583333333vw;
+    padding-top: 15.625vw;
     position: relative
 }
 
