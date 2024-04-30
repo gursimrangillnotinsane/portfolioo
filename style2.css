@@ -727,7 +727,11 @@ a {
     overflow: hidden
 }
 
-
+@media(max-width:960px) {
+    .ticker {
+        font-size: 3.5rem;
+    }
+}
 
 
 .ticker.small {
@@ -2209,7 +2213,7 @@ video {
 
 @media(max-width:460px) {
     .home-1__h1 {
-        font-size: 17vw
+        font-size: 5rem
     }
 }
 
@@ -2873,12 +2877,16 @@ video {
 
 @media(max-width:960px) {
     .before-footer__h2 {
-
+        font-size: 3.5rem;
         position: static;
         transform: translateX(0);
         white-space: normal;
         text-align: center;
         width: 100%
+    }
+
+    .home-4__h2 {
+        font-size: 3.5rem;
     }
 }
 
