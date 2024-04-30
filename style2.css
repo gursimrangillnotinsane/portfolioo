@@ -220,7 +220,7 @@ a {
 @font-face {
     font-family: SFUIDisplay;
     font-display: swap;
-    src: url(sf-ui-display-medium-58646be638f96.otf) format("woff2");
+    src: url(/assets/sf-ui-display-medium-58646be638f96.otf) format("woff2");
     font-weight: 400;
     font-style: normal
 }
@@ -228,7 +228,7 @@ a {
 @font-face {
     font-family: SFUIDisplay;
     font-display: swap;
-    src: url(sf-ui-display-light-58646b33e0551.otf) format("woff2");
+    src: url(/assets/sf-ui-display-light-58646b33e0551.otf) format("woff2");
     font-weight: 300;
     font-style: normal
 }
