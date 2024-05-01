@@ -727,6 +727,11 @@ a {
     overflow: hidden
 }
 
+
+
+
+
+
 @media(max-width:960px) {
     .ticker {
         font-size: 3.5rem;
